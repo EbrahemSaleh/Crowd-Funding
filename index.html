@@ -5,16 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <script src="js/main.js" defer ></script>
   <title> Crowdfunding product page</title>
 
 </head>
 <body>
- 
-  <main>
-    
+ <header class="header"> 
+   <nav class="nav" >
+    <figure class="nav__logo-box">
+      <img src="images/logo.svg" alt="logo" class="nav--logo" />
+    </figure>
+    <svg class="nav__icon-menu-open js-btn-menu-open">
+      <use xlink:href="images/sprite.svg#icon-hamburger"></use>
+    </svg>
+    <svg class="nav__icon-menu-close js-btn-menu-close">
+      <use xlink:href="images/sprite.svg#icon-close-menu"></use>
+    </svg>
+
+    <ul class="nav__list js-menu">
+
+      <li class="nav__list--item">
+        <a href="#" class="nav__list--link"> About </a>
+      </li>
+      <li class="nav__list--item">
+        <a href="#" class="nav__list--link"> Discover </a>
+      </li>
+      <li class="nav__list--item">
+        <a href="#" class="nav__list--link"> Get Started </a>
+      </li>
+    </ul>
   
-  </main>
+  </nav>
+
+</header>
 </body>
 </html>
