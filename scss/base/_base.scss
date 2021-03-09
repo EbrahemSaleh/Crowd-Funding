@@ -1,0 +1,23 @@
+  
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $grey-color;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: "Commissioner", sans-serif;
+}
+
