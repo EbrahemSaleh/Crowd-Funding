@@ -1,0 +1,22 @@
+{
+  "name": "crowdfunding-product-page-main",
+  "version": "1.0.0",
+  "description": "crowdfunding product",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass":"node-sass sass/main.scss css/mainStyle.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EbrahemSaleh/Crowd-Funding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EbrahemSaleh/Crowd-Funding/issues"
+  },
+  "homepage": "https://github.com/EbrahemSaleh/Crowd-Funding#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
